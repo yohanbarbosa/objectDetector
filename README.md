@@ -222,4 +222,6 @@ La aplicación abrirá la cámara web y comenzará la detección en tiempo real 
 
 Se logró entrenar exitosamente un modelo YOLOv8 capaz de detectar las categorías Bag y Shoe en tiempo real.
 
-Los resultados obtenidos muestran una alta precisión y un desempeño adecuado para aplicaciones de visión por computadora, demostrando la efectividad del proceso completo de construcción del dataset, entrenamiento, evaluación e implementación del modelo.
+Los resultados obtenidos muestran buena precisión y un desempeño adecuado para aplicaciones de visión por computadora, demostrando la efectividad del proceso completo de construcción del dataset, entrenamiento, evaluación e implementación del modelo.
+
+
