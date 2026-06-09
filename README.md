@@ -57,7 +57,6 @@ El proceso completo de entrenamiento puede consultarse en el siguiente enlace:
 
 https://colab.research.google.com/drive/1XtwLtF4I_yFdqtD86fvF6e97okAOQ7Jt?usp=sharing
 
-Modelo Utilizado
 
 ### Modelo utilizado
 
