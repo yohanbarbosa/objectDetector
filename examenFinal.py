@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 # cargar el modelo de yolo
-model = YOLO('best.pt')
+model = YOLO('model/best.pt')
 
 print(model.names)
 
@@ -39,7 +39,7 @@ while True:
             #extraer en nombre la claser
             class_name = model.names[class_id]
             # evaluamos porcentaje de confianza
-            if confidence > 0.5:
+            if confidence > 0.8:
                 color = ( 0, 255 , 0 )
                 cv2.rectangle(
                     frame,
