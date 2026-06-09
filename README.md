@@ -211,7 +211,7 @@ pip install -r requirements.txt
 Ejecutar:
 
 ```bash
-python main.py
+python examenFinal.py
 ```
 
 La aplicación abrirá la cámara web y comenzará la detección en tiempo real de las categorías entrenadas.
