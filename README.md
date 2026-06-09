@@ -75,19 +75,19 @@ El archivo **best.pt** contiene los pesos aprendidos por la red neuronal durante
 
 #### Curva F1
 
-![F1 Curve](images/F1_curve.png)
+![F1 Curve](images/BoxF1_curve.png)
 
 #### Curva Precision-Confidence
 
-![Precision Curve](images/P_curve.png)
+![Precision Curve](images/BoxP_curve.png)
 
 #### Curva Recall-Confidence
 
-![Recall Curve](images/R_curve.png)
+![Recall Curve](images/BoxR_curve.png)
 
 #### Curva Precision-Recall
 
-![PR Curve](images/PR_curve.png)
+![PR Curve](images/BoxPR_curve.png)
 
 #### Matriz de Confusión
 
@@ -176,10 +176,10 @@ project/
 │   ├── F1_curve.png
 │   ├── P_curve.png
 │   ├── PR_curve.png
-│   ├── R_curve.png    
-│   └── labels.png
+│   └── R_curve.png
 │
 ├── examenFinal.py
+├── requirements.txt
 └── README.md
 ```
 
