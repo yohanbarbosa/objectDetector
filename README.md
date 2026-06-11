@@ -38,6 +38,8 @@ El dataset fue dividido en tres conjuntos:
 * Validación (Validation)
 * Prueba (Test)
 
+**Enlace del dataset** --> https://app.roboflow.com/yohans-workspace-nuedv/dataforobjets/train
+
 ---
 
 ## Entrenamiento del Modelo
