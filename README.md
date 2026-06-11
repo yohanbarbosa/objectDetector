@@ -191,13 +191,13 @@ project/
 Clonar el repositorio:
 
 ```bash
-git clone https://github.com/usuario/repositorio.git
+git clone https://github.com/yohanbarbosa/objectDetector.git
 ```
 
 Ingresar al proyecto:
 
 ```bash
-cd repositorio
+cd objectDetector
 ```
 
 Instalar dependencias:
