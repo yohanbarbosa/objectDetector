@@ -34,11 +34,15 @@ Posteriormente las imágenes fueron etiquetadas utilizando Roboflow en formato c
 
 El dataset fue dividido en tres conjuntos:
 
-* Entrenamiento (Train)
-* Validación (Validation)
-* Prueba (Test)
+* Entrenamiento (Train)   -> **80%**
+* Validación (Validation) -> **20%**
+* Prueba (Test)           -> **10%**
 
-**Enlace del dataset** --> https://app.roboflow.com/yohans-workspace-nuedv/dataforobjets/train
+**Enlace del dataset en RoboFlow** --> https://app.roboflow.com/yohans-workspace-nuedv/dataforobjets/train
+
+**Imagen**
+
+![Dataset roboflow](images/evidence/dataSet.png)
 
 ---
 
@@ -47,6 +51,16 @@ El dataset fue dividido en tres conjuntos:
 El entrenamiento del modelo se realizó utilizando Google Colab, aprovechando el acceso a recursos de cómputo con GPU para acelerar el proceso de aprendizaje de la red neuronal.
 
 Se utilizó la implementación de YOLOv8 proporcionada por la librería Ultralytics, entrenando el modelo sobre un dataset propio previamente construido y etiquetado mediante Roboflow.
+
+Ademas cabe agregar que despues de descargar el dataset que esta en roboflow debe de agregarse previamente en el drive asociado al colab donde se realizara el entrenamiento. la ruta de alojamiento del dataset es: 
+
+```bash
+colab Notebooks/agregar dataSet
+```
+
+**Imgen de referencia**
+![ubicacion del archivo](images/evidence/drive.png)
+
 
 ## Entorno de Entrenamiento
 Plataforma: Google Colab
@@ -58,6 +72,11 @@ Notebook de Entrenamiento
 El proceso completo de entrenamiento puede consultarse en el siguiente enlace:
 
 https://colab.research.google.com/drive/1XtwLtF4I_yFdqtD86fvF6e97okAOQ7Jt?usp=sharing
+
+
+**Imagen**
+
+![Entrenamiento Colab](images/evidence/colab.png)
 
 
 ### Modelo utilizado
@@ -155,10 +174,21 @@ La aplicación fue desarrollada utilizando OpenCV para realizar detección de ob
 Características:
 
 * Captura de video en tiempo real.
-* Detección automática de bolsos y zapatos.
+* Detección automática de bolsos y zapato.
 * Visualización de cajas delimitadoras (Bounding Boxes).
 * Etiquetado de cada objeto detectado.
 * Visualización de la confianza de detección.
+
+## Evidencias 
+
+**Imagen Detectando la clase Bag(Bolso) **
+
+![Entrenamiento Colab](images/evidence/bag.png)
+
+
+**Imagen Detectando la clase Shoe(zapato) **
+
+![Entrenamiento Colab](images/evidence/shoe.png)
 
 ---
 
@@ -171,6 +201,12 @@ project/
 │   └── best.pt
 │
 ├── images/
+│   ├── evidence/
+│   │   ├──bag.png
+│   │   ├──dataSet.png
+│   │   ├──colab.png
+│   │   └──shoe.png
+│   │      
 │   ├── results.png
 │   ├── confusion_matrix.png
 │   ├── confusion_matrix_normalized.png
